@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\..\\asm_banhang"
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "PS24647_ASM2_LeVanHieu"
+    }
+}

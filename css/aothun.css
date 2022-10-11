@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.product_sum {
+    font-family: 'Courier New', Courier, monospace;
+    width: 86%;
+    margin: 20px auto 0;
+    background-color: white;
+}
+
+.product_sum .text2 {
+    width: 100%;
+    /* background-color: aqua; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+
+.product_sum .product_list {
+    /* background-color: #FF6200; */
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product_sum .product_list .list {
+    /* background-color: #dbbca9; */
+    width: 24%;
+    margin: 15px 0;
+}
+
+.product_sum .product_list .list img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product_sum .product_list .list p {
+    text-align: center;
+}
+
+.product_sum .product_list .list p a {
+    color: #222;
+    text-decoration: none;
+}
+
+.product_sum .product_list .list .gia_gio {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.product_sum .product_list .list .gia_gio span {
+    font-weight: 600;
+    color: #FC4851;
+}
+
+.product_sum .product_list .list .gia_gio a {
+    color: #222;
+}
+
+.product_sum .product_list .list input {
+    width: 100%;
+    padding: 15px;
+    background-color: #FC4851;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
